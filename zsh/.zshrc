@@ -28,6 +28,7 @@ fi
 
 zstyle ':completion:*' hosts off
 
+source /usr/local/share/antigen/antigen.zsh
 source $HOME/.antigen.zsh
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -50,7 +51,7 @@ export ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=132'
 export ZSH_HIGHLIGHT_STYLES[single-quoted-argument]='fg=107,bold'
 export ZSH_HIGHLIGHT_STYLES[double-quoted-argument]='fg=107,bold'
 
-alias ls='command ls -bhv --color=yes --group-directories-first'
+alias ls='command ls -bhva -G'
 alias l='ls -l'
 alias zz="source $HOME/.zshrc"
 
