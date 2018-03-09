@@ -1,6 +1,6 @@
 [user]
-  email = lowe.thiderman@gmail.com
-  name = Lowe Thiderman
+  email = jmucientes@spotify.com
+  name = Jose Mucientes
 [color]
   ui = auto
 
@@ -76,5 +76,3 @@
 	insteadOf = https://github.com/
 [pull]
 	rebase = true
-[github]
-	user = thiderman
